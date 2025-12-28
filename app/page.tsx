@@ -16,6 +16,9 @@ interface CartItem {
 }
 
 const PRODUCTS = [
+  // Test Product
+  { id: "test-1", name: "Test Product (₹1)", price: 1, category: "Test", image: "🧪" },
+  
   // Beverages
   { id: "1", name: "Fresh Orange Juice (1L)", price: 120, category: "Beverages", image: "🧃" },
   { id: "2", name: "Mineral Water (20L Jerry)", price: 250, category: "Beverages", image: "💧" },
